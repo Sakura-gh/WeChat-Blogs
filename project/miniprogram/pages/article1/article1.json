@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "cu-custom":"/components/cu-custom/cu-custom",
+      "card":"/components/card/card"
+  }
+}

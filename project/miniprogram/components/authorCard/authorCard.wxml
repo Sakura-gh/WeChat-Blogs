@@ -1,0 +1,19 @@
+<!-- 蒙版效果 -->
+<view class="mask" hidden="{{isHidden}}" catchtap="closeMask">
+    <view class="masks" catchtap="prevent" animation="{{ani}}">
+        <view class="box">
+            <image class="leftImage" mode="widthFix" src="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/7c1ed21b0ef41bd5182cc09852da81cb39db3d5a.jpg"></image>
+            <view class="right">
+                <view class="title">
+                    <text class="name">GeHao</text>
+                </view>
+                <view class="info">
+                    <view class="field">Email</view>
+                    <view class="value">Sakura.gehao@gmail.com</view>
+                    <view class="field">Github</view>
+                    <view class="value">https://github.com/Sakura-gh</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

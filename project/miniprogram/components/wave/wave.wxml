@@ -1,0 +1,5 @@
+<!--components/wave/wave.wxml-->
+<cu-custom bgColor="bg-gradual-red" isBack="true">
+    <view slot="backText">{{backText}}</view>
+    <view slot="content">{{title}}</view>
+</cu-custom>

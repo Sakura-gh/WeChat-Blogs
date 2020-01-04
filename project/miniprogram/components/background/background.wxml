@@ -1,0 +1,40 @@
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>点击浏览某个月份的文章吧~
+  </view>
+</view>
+<view class="grid col-3 padding-sm">
+  <view class="padding-sm" wx:for="{{ColorList}}" wx:key wx:if="{{index<12}}">
+    <view class="bg-{{item.name}} padding radius text-center shadow-blur">
+      <view class="text-lg">{{months[index]}}</view>
+      <!-- <view class="margin-top-sm text-Abc">{{months[index]}}</view> -->
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>文章风格关键字~
+  </view>
+</view>
+<view class="grid col-3 bg-white padding-sm">
+  <view class="padding-sm" wx:for="{{ColorList}}" wx:key wx:if="{{index<12}}">
+    <view class="bg-{{item.name}} padding radius text-center light">
+      <view class="text-lg">{{styles[index]}}</view>
+      <view class="margin-top-sm text-Abc">{{months[index]}}</view>
+    </view>
+  </view>
+</view>
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>热门文章展示惹~
+  </view>
+</view>
+<view class="grid col-2 padding-sm">
+  <view class="padding-sm" wx:for="{{ColorList}}" wx:key wx:if="{{index<6}}">
+    <view class="bg-gradual-{{hotColor[index]}} padding radius text-center shadow-blur" bindtap="gotoHot">
+      <view class="text-lg">date</view>
+      <view class="margin-top-sm text-Abc">{{hot[index]}}</view>
+    </view>
+  </view>
+</view>

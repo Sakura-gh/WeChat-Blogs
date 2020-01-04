@@ -1,0 +1,21 @@
+<!--components/authors/authors.wxml-->
+<view class="mask" hidden="{{isHidden}}" catchtap="closeMask">
+    <view class="masks" catchtap="prevent" animation="{{ani}}">
+        <view class="box">
+            <image class="leftImage" mode="widthFix" src="http://p3-tt.bytecdn.cn/large/pgc-image/15314534417315030c79648"></image>
+            <view class="right">
+                <view class="title">
+                    <text class="name">authors</text>
+                </view>
+                <view class="info">
+                    <view class="field">葛浩</view>
+                    <view class="value">3180103494</view>
+                    <view class="field">刘星烨</view>
+                    <view class="value">31801.....</view>
+                    <view class="field">杨育谭</view>
+                    <view class="value">31801.....</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,27 @@
+<!--miniprogram/pages/article1/article1.wxml-->
+<view>
+    <view>
+        <cu-custom bgColor="bg-gradual-red" isBack="true">
+        <view slot="backText">返回</view>
+        <view slot="content">LOL Blogs</view>
+        </cu-custom>
+    </view>
+    <view>
+        <view class="bg-video bg-mask flex align-center" style="height: 422rpx;">
+            <video src="https://yz.lol.qq.com/v1/assets/videos/aatrox-splashvideo.webm" autoplay loop muted show-play-btn="true" controls="true" objectFit="cover"></video>
+            <cover-view class="padding-xl text-white ">
+                <cover-view class="padding-xs  text-xxl text-bold">暗裔剑魔</cover-view>
+                <cover-view class="padding-xs">我必须连同希望一起毁坏……</cover-view>
+            </cover-view>
+        </view>
+    </view>
+    <card></card>
+    <view style="margin-top:0rpx">
+        <view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg');height: 414rpx;">
+            <view class="padding-xl text-white">
+                <view class="padding-xs text-xl">钢铁之翼</view>
+                <view class="padding-xs">Only the guilty need fear me.</view>
+            </view>
+        </view>
+    </view>
+</view>

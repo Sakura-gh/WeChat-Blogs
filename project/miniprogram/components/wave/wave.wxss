@@ -1,0 +1,36 @@
+/* components/wave/wave.wxss */
+
+/* =========== */
+/*   波浪动画   */
+/* =========== */
+@import "../../colorui/animation.wxss";
+
+image[class*="gif-"] {
+    /* border-radius: 6rpx; */
+    display: block;
+}
+
+.gif-wave {
+    /* position: absolute; */
+    width: 100%;
+    bottom: -2rpx;
+    left: 0;
+    z-index: 99;
+    mix-blend-mode: screen;
+    height: 100rpx;
+}
+
+.fall-container {
+    width: 100%;
+    display: flex;
+}
+
+.fall-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.fall-right {
+    display: flex;
+    flex-direction: column;
+}

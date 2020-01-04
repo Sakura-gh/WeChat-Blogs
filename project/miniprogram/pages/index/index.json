@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "addTips":"/components/addTips/addTips",
+    "authorCard":"/components/authorCard/authorCard",
+    "authors":"/components/authors/authors",
+    "typeWriter":"/components/typeWriter/typeWriter",
+    "wave":"/components/wave/wave",
+    "background": "/components/background/background",
+    "swiper": "/components/swiper/swiper"
+  }
+}
